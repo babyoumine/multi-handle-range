@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="./double-handle-range.css">
+    <div class="multi-range" min="7" max="18">
+        <input type="text" class="number left" maxlength="2"/>
+        <div class="slider">
+            <input type="range" class="range left" value="7">
+            <input type="range" class="range right" value="18">
+            <div class="slider-visible">
+                <div class="track"></div>
+                <div class="range visible"></div>
+                <div class="thumb left"></div>
+                <div class="thumb right"></div>
+            </div>
+        </div>
+        <input type="text" class="number right" maxlength="2"/>
+    </div>
+    <script src="./double-handle-range.js"></script>
+</body>
+</html>
